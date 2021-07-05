@@ -1,0 +1,1 @@
+module "github.com/harout/bank-account-processor"
