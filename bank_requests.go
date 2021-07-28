@@ -85,7 +85,7 @@ func call(bankServ BankService) {
 	case "deposit":
 		requestFailed = bankServ.deposit()
 	default:
-		bankServ.failedAction()
+		requestFailed = true
 	}
 
 	if requestFailed {
